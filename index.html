@@ -2,80 +2,170 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Hashim Aziz Muhammad's personal website showcasing web development skills."
-    />
-    <meta name="author" content="Hashim Aziz Muhammad" />
-    <title>Hashim Aziz Muhammad - First Web Developer Portfolio</title>
-    <!-- Font Awesome icons -->
-    <script
-      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google fonts-->
+    <title>Hashim - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Varela+Round&display=swap"
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!-- CSS -->
-    <link href="css/styles.css" rel="stylesheet" />
   </head>
 
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
-      <div class="container">
-        <a href="#showcase" class="navbar-brand"
-          >Hashim Aziz Muhammad - Web Developer Portfolio</a
-        >
-        <!-- Hamburger icon for smaller screens -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="#about" class="nav-link">Profile</a>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/profilenobg1.png"
+              alt="Hashim Aziz Muhammad"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Hashim Aziz">Hashim Aziz</h1>
+            <h1 class="name" title="Muhammad">Muhammad</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:hashimazizm@gmail.com" class="contact-link"
+                  >hashimazizm@gmail.com</a
+                >
+              </div>
             </li>
-            <li class="nav-item">
-              <a href="#resume-section" class="nav-link">Work Experience</a>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+27 83 252 1214</a
+                >
+              </div>
             </li>
-            <li class="nav-item">
-              <a href="#Skills" class="nav-link">Skills</a>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">March 9, 1999</time>
+              </div>
             </li>
-            <li class="nav-item">
-              <a href="#contact-section" class="nav-link">Contact Details</a>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Johannesburg, Gauteng, South Africa</address>
+              </div>
             </li>
           </ul>
-        </div>
-      </div>
-    </nav>
 
-    <!-- Showcase -->
-    <section
-      id="showcase"
-      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start mt-5 mb-3"
-    >
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md-12">
-            <h1 class="mb-3 mt-5">
-              <span class="text-warning">Hashim Aziz Muhammad</span>
-            </h1>
-            <p class="lead mb-4">
+          <div class="separator"></div>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
               Welcome to my personal website! I'm passionate about web
               development, and here you can learn more about my journey and
               experiences in the tech world. In my pursuit of excellence, I am
@@ -87,253 +177,445 @@
               about the tech landscape, I invite you to explore my journey and
               connect with me. Let's build something incredible together!
             </p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- About Me Section -->
-    <section class="section about-section bg-light" id="about">
-      <div class="container">
-        <div
-          class="row align-items-center justify-content-around flex-row-reverse"
-        >
-          <div class="col-lg-6">
-            <div class="about-text">
-              <h3 class="dark-color">Profile</h3>
-              <h4 class="theme-color">Software Development</h4>
-              <p>
-                I am Hashim Aziz Muhammad, a budding web developer currently
-                pursuing Full Stack Web Development learning. Eager to broaden
-                my skill set in web development, I bring a fresh perspective and
-                a strong appetite for learning. My enthusiasm lies in embracing
-                challenges and contributing my evolving skill set to the
-                development of innovative solutions.
-              </p>
-              <div class="btn-bar">
-                <div class="btn-bar">
-                  <button
-                    class="btn btn-primary btn-lg"
-                    onclick="window.open('https://github.com/hashimaziz88', '_blank')"
-                  >
-                    View Github
-                  </button>
+            <p>
+              My job is to build your website so that it is functional and
+              user-friendly but at the same time attractive. Moreover, I add
+              personal touch to your product and make sure that is eye-catching
+              and easy to use. My aim is to bring across your message and
+              identity in the most creative way.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">
+                    Professional development of Mobile friendly Websites for iOS
+                    and Android.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI / UX</h4>
+
+                  <p class="service-item-text">
+                    I make high-quality designs for Websites
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
-          <div class="col-lg-5 text-center">
-            <div class="about-img">
-              <img
-                src="profilenobg3.png"
-                alt="Hashim Aziz Muhammad"
-                class="img-fluid rounded-circle"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Resume Section -->
-    <section
-      id="resume-section"
-      class="resume-section bg-light text-black mt-5"
-    >
-      <div class="container">
-        <h2 class="text-center mb-4">Work Experience and Education</h2>
-        <div class="row">
-          <!-- Work Experience Cards -->
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Village Square Pharmacy</h5>
-                <p><strong>Pharmacist Assistant Post Basic</strong></p>
-                <p>December 2020 - January 2021 (2 months)</p>
-                <p>December 2019 - January 2020 (2 months)</p>
-                <p>December 2018 - January 2019 (2 months)</p>
-                <p>
-                  Collaboration with NWU for Learning in Workplace and Community
-                  Assignment
+          <!--
+          - clients
+        -->
+
+          <section class="clients"></section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  HyperionDev Web Development
+                </h4>
+
+                <p class="timeline-text">
+                  Embarked on the Full Stack Web Developer Bootcamp, mastering
+                  essentials like JavaScript, Redux, and React. Advanced through
+                  Express.js, MongoDB, and Next.js, gaining expertise in
+                  server-side development and databases. Completed capstone
+                  projects using the MERN Stack, translating skills into
+                  real-world applications.
                 </p>
-                <p>Worked in the capacity of Post Basic Pharmacist Assistant</p>
-              </div>
-            </div>
-          </div>
-          <!-- Education cards -->
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">North-West University</h5>
-                <p><strong>Bachelors of Pharmacy</strong></p>
-                <p>January 2018 - December 2021</p>
-                <p>Completed up to 3rd year modules</p>
-                <p>
-                  Location: City of Potchefstroom, North North-West, South
-                  Africa
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  ALX_Africa Back End Development
+                </h4>
+
+                <p class="timeline-text">
+                  Embarked on an amazing journey at ALX, diving into a back-end
+                  developer. Mastered Python, Node.js, and Express.js, delving
+                  into the Django realm for advanced frameworks.
                 </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Bethlehem Voortrekker High School</h5>
-                <p><strong>Matric Exemption With Bachelors Pass</strong></p>
-                <p>2013 - 2017</p>
-                <p>
-                  Distinctions in Life Orientation and Accounting. <br />
-                  Average of 75%.
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Voortrekker High School</h4>
+
+                <p class="timeline-text">
+                  Completed Matric with Distinctions in Accounting and Life
+                  Orientation and Achieved over 70% for Mathematics with an
+                  average of 75%.
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+              </li>
+            </ol>
+          </section>
 
-    <!-- Skills Section -->
-    <section id="Skills" class="bg-light text-black mt-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Skills</h2>
-        <div class="row">
-          <!-- Soft Skills Card -->
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title">Soft Skills</h3>
-                <ul>
-                  <li>
-                    <strong>Adaptability:</strong> Proven ability to adapt to
-                    new situations and environments, ensuring effective
-                    performance in dynamic settings.
-                  </li>
-                  <li>
-                    <strong>Resilience:</strong> Demonstrated resilience in
-                    overcoming challenges and maintaining a positive attitude
-                    during periods of change and uncertainty.
-                  </li>
-                  <li>
-                    <strong>Communication:</strong> Excellent verbal and written
-                    communication skills, facilitating clear and concise
-                    interactions with team members and stakeholders.
-                  </li>
-                </ul>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
               </div>
-            </div>
-          </div>
-          <!-- Hard Skills Card -->
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title">Hard Skills</h3>
-                <h4>Customer Relationship Management (CRM):</h4>
-                <ul>
-                  <li>
-                    Building and maintaining customer relationships for sales
-                    growth
-                  </li>
-                  <li>Direct Sales</li>
-                </ul>
-                <h4>Sales and Marketing:</h4>
-                <ul>
-                  <li>Social Media Strategy</li>
-                  <li>Sales Operations</li>
-                  <li>Data-Driven Decision Making</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Language Proficiencies Card -->
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title">Language and System Proficiencies</h3>
-                <!-- Badges for Language Proficiencies -->
-                <span class="badge bg-primary mb-1">Pyhton</span><br />
-                <span class="badge bg-primary mb-1">JavaScript</span><br />
-                <span class="badge bg-primary mb-1">HTML + CSS</span><br />
-                <span class="badge bg-primary mb-1">Linux</span><br />
-                <span class="badge bg-primary mb-1">GIT</span><br />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Contact -->
-    <section
-      id="contact-section"
-      class="contact-section bg-dark text-white mt-5"
-    >
-      <div class="container px-4 px-lg-5">
-        <h2 class="text-center mb-4">Contact Details</h2>
-        <div class="row gx-4 gx-lg-5">
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100 mx-auto">
-              <div class="card-body text-center">
-                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Location</h4>
-                <hr class="my-4 mx-auto" />
-                <div class="small text-black-50">
-                  Johannesburg, South Africa
-                </div>
-              </div>
+              <h3 class="h3">Experience</h3>
             </div>
-          </div>
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Email</h4>
-                <hr class="my-4 mx-auto" />
-                <div class="small text-black-50">
-                  <a href="mailto:hashimazizm@gmail.com"
-                    >hashimazizm@gmail.com</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fa-brands fa-linkedin text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">LinkedIn</h4>
-                <hr class="my-4 mx-auto" />
-                <div class="small text-black-50">
-                  <a
-                    href="https://www.linkedin.com/in/hashimaziz88/"
-                    target="_blank"
-                  >
-                    Hashim Aziz Muhammad
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="social d-flex justify-content-center">
-          <a
-            class="mx-2"
-            href="https://www.linkedin.com/in/hashimaziz88/"
-            target="_blank"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a
-            class="mx-2"
-            href="https://github.com/hashimaziz88"
-            target="_blank"
-          >
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </div>
-      </div>
-    </section>
 
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Intern Software Developer at NML
+                </h4>
+
+                <span>July 2023 - Feb 2024</span>
+
+                <p class="timeline-text">
+                  During my time at NML i used Python together with Flask and
+                  Django for Back-End Development. For Front-End I used
+                  JavaScript/TypeScript, HTML and CSS with React. With regards
+                  to Databases we made use of MongoDB and MySQL. I also had the
+                  opportunity to use Data Science Libraries in Python such as
+                  Pandas, Seaborn, etc.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill"></section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Finance</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">E-Commerce</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Woolworths SA clone</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <a>
+                <img
+                  src="./assets/images/Screenshot 2024-07-10 120022.png"
+                  href="https://www.google.co.za/maps/place/Rosebank+Mall/@-26.1419685,28.0676828,12z/data=!4m6!3m5!1s0x1e950c8d37b50aaf:0x14ea91e5828c79e9!8m2!3d-26.1463218!4d28.0417405!16s%2Fg%2F11g8t1q06p?entry=ttu"
+                />
+              </a>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
