@@ -2,6 +2,30 @@
   /**
    * colors
    */
+  .button-group {
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .button-group a {
+    display: inline-block;
+    padding: 8px 16px; /* Adjusted padding to make buttons smaller */
+    margin-left: 10px;
+    color: var(--white-1); /* Text color */
+    background-color: #feca66; /* Updated to a shade of yellow */
+    border: 2px solid #feca66; /* Border color */
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: var(--fs-5); /* Font size */
+    font-weight: var(--fw-500); /* Font weight */
+    text-transform: uppercase;
+  }
+
+  .button-group a.secondary {
+    background-color: transparent;
+    color: #feca66; /* Text color matches primary button background */
+    border-color: #feca66;
+  }
 
   /* gradient */
 
