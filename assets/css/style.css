@@ -2,9 +2,28 @@
   /**
    * colors
    */
+
   .button-group {
     position: relative;
     margin-top: 10px;
+  }
+  .button-group a.download-certificate {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-left: 10px;
+    color: var(--white-1);
+    background-color: #feca66; /* Yellow color */
+    border: 2px solid #feca66;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: var(--fs-5);
+    font-weight: var(--fw-500);
+    text-transform: uppercase;
+  }
+
+  .button-group a.download-certificate:hover {
+    background-color: #f3b950; /* Lighter shade of yellow on hover */
+    border-color: #f3b950;
   }
 
   .button-group a {
