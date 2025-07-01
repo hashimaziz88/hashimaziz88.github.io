@@ -22,13 +22,13 @@ To view the website, simply visit [hashimaziz88.github.io](https://hashimaziz88.
 If you want to run this project locally, follow these steps:
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/hashimaziz88/hashimaziz88.github.io.git
-    ```
+   ```sh
+   git clone https://github.com/hashimaziz88/hashimaziz88.github.io.git
+   ```
 2. Navigate to the project directory:
-    ```sh
-    cd hashimaziz88.github.io
-    ```
+   ```sh
+   cd hashimaziz88.github.io
+   ```
 3. Open `index.html` in your preferred web browser.
 
 ## Usage
@@ -37,21 +37,21 @@ Feel free to explore the website to learn more about me and my work. The source 
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request. 
+Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
 
 1. Fork the repository.
 2. Create a new branch:
-    ```sh
-    git checkout -b feature/your-feature-name
-    ```
+   ```sh
+   git checkout -b feature/your-feature-name
+   ```
 3. Make your changes and commit them:
-    ```sh
-    git commit -m "Add some feature"
-    ```
+   ```sh
+   git commit -m "Add some feature"
+   ```
 4. Push to the branch:
-    ```sh
-    git push origin feature/your-feature-name
-    ```
+   ```sh
+   git push origin feature/your-feature-name
+   ```
 5. Open a pull request.
 
 ## License
