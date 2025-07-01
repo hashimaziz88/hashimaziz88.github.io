@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/TaskMaster-Pro-H/static/css/main.48174ed0.css",
-    "main.js": "/TaskMaster-Pro-H/static/js/main.1688971b.js",
-    "static/js/770.074a10a6.chunk.js": "/TaskMaster-Pro-H/static/js/770.074a10a6.chunk.js",
-    "static/js/453.ad7768ec.chunk.js": "/TaskMaster-Pro-H/static/js/453.ad7768ec.chunk.js",
-    "static/media/leaf.png": "/TaskMaster-Pro-H/static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/emotion.png": "/TaskMaster-Pro-H/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/TaskMaster-Pro-H/static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/codeEditor.png": "/TaskMaster-Pro-H/static/media/codeEditor.1b585492490c8c1cace9.png",
-    "static/media/blog.png": "/TaskMaster-Pro-H/static/media/blog.fb8ab7f271a937d5fc01.png",
-    "static/media/home-main.svg": "/TaskMaster-Pro-H/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/TaskMaster-Pro-H/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/chatify.png": "/TaskMaster-Pro-H/static/media/chatify.7206044e0b5cdad44726.png",
-    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/TaskMaster-Pro-H/static/media/Soumyajit_Behera-BIT_MESRA.f31c00c0623443fc6fa3.pdf",
-    "static/media/home-bg.jpg": "/TaskMaster-Pro-H/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/TaskMaster-Pro-H/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
-    "static/media/pre.svg": "/TaskMaster-Pro-H/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/TaskMaster-Pro-H/index.html",
-    "main.48174ed0.css.map": "/TaskMaster-Pro-H/static/css/main.48174ed0.css.map",
-    "main.1688971b.js.map": "/TaskMaster-Pro-H/static/js/main.1688971b.js.map",
-    "770.074a10a6.chunk.js.map": "/TaskMaster-Pro-H/static/js/770.074a10a6.chunk.js.map",
-    "453.ad7768ec.chunk.js.map": "/TaskMaster-Pro-H/static/js/453.ad7768ec.chunk.js.map"
+    "main.css": "/static/css/main.8909c821.css",
+    "main.js": "/static/js/main.d115dc80.js",
+    "static/js/770.074a10a6.chunk.js": "/static/js/770.074a10a6.chunk.js",
+    "static/js/453.ad7768ec.chunk.js": "/static/js/453.ad7768ec.chunk.js",
+    "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/logo.png": "/static/media/logo.693a2935bf14bd84c729.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/Hashim_Aziz_Muhammad_Resume.pdf": "/static/media/Hashim_Aziz_Muhammad_Resume.16b0c52bab987cdb5c15.pdf",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.8909c821.css.map": "/static/css/main.8909c821.css.map",
+    "main.d115dc80.js.map": "/static/js/main.d115dc80.js.map",
+    "770.074a10a6.chunk.js.map": "/static/js/770.074a10a6.chunk.js.map",
+    "453.ad7768ec.chunk.js.map": "/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48174ed0.css",
-    "static/js/main.1688971b.js"
+    "static/css/main.8909c821.css",
+    "static/js/main.d115dc80.js"
   ]
 }
