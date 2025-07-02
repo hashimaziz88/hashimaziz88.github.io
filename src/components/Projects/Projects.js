@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import moviereview from "../../Assets/Projects/moviereview.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import xbanker from "../../Assets/Projects/xbanker.png";
+import netguardian from "../../Assets/Projects/netguardian.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import woolies from "../../Assets/Projects/woolies.png";
 
 function Projects() {
   return (
@@ -23,50 +23,56 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={netguardian}
               isBlog={false}
               title="NetGuardian"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="NetGuardian is a lightweight Managed Detection & Response (MDR) platform built for the ITWeb Security Summit 2025 Hackathon.I developed the frontend using React, Next.js, TypeScript, and Tailwind CSS, creating a responsive UI and real-time threat dashboard that integrates with backend detection systems."
               ghLink="https://github.com/hashimaziz88/neural-defenders"
               demoLink="https://neural-defenders-5tgr.vercel.app/"
               youtubeLink="https://youtu.be/QpULuEAWKx8?si=1OrG90Abgmp0Y5yM"
             />
           </Col>
 
+
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={xbanker}
               isBlog={false}
-              title="Project 2"
-              description=""
-              ghLink=""
-              demoLink=""
+              title="XBanker"
+              description="XBanker is a single-page banking app landing page built with React, Tailwind CSS, and JavaScript.
+
+It showcases my frontend skills in crafting clean, responsive UI layouts with modern design practices."
+              ghLink="https://github.com/hashimaziz88/XBanker"
+              demoLink="https://hashimaziz88.github.io/XBanker/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={moviereview}
               isBlog={false}
-              title=""
-              description=""
-              ghLink=""
-              demoLink=""
+              title="Movie Reviewer"
+              description="This Django-based API allows users to manage movie reviews, ratings, and recommendations. Users can create accounts, submit reviews, rate movies, and get personalized recommendations based on their preferences."
+              ghLink="https://github.com/hashimaziz88/ALXBE_Capstone_Django"
+              demoLink="https://github.com/hashimaziz88/ALXBE_Capstone_Django"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={woolies}
               isBlog={false}
-              title=""
-              description=""
-              ghLink=""
-              demoLink=""
+              title="Woolies Clone"
+              description="A front-end clone of the Woolworths online store, built using React, CSS, BootStrap and JavaScript.
+
+This project showcases my ability to replicate real-world e-commerce layouts with product listings, responsive design, and clean UI components."
+              ghLink="https://github.com/hashimaziz88/woolies-clone"
+              demoLink="https://hashimaziz88.github.io/woolies-clone/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
+          
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -86,7 +92,7 @@ function Projects() {
               ghLink=""
               // demoLink="https://"      <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
