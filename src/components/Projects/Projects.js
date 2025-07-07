@@ -33,8 +33,6 @@ function Projects() {
             />
           </Col>
 
-
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={xbanker}
@@ -59,7 +57,7 @@ It showcases my frontend skills in crafting clean, responsive UI layouts with mo
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={woolies}
               isBlog={false}
@@ -70,8 +68,8 @@ This project showcases my ability to replicate real-world e-commerce layouts wit
               ghLink="https://github.com/hashimaziz88/woolies-clone"
               demoLink="https://hashimaziz88.github.io/woolies-clone/"
             />
-          </Col>
-          
+          </Col> */}
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}

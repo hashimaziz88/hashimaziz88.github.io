@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8909c821.css",
-    "main.js": "/static/js/main.672f6016.js",
+    "main.js": "/static/js/main.88bbe7dc.js",
     "static/js/770.074a10a6.chunk.js": "/static/js/770.074a10a6.chunk.js",
     "static/js/453.ad7768ec.chunk.js": "/static/js/453.ad7768ec.chunk.js",
     "static/media/xbanker.png": "/static/media/xbanker.d09877a86706db923d20.png",
@@ -9,7 +9,7 @@
     "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/moviereview.png": "/static/media/moviereview.8a3490ed05e272bb629a.png",
-    "static/media/Hashim _Aziz-Muhammad_CV.pdf": "/static/media/Hashim _Aziz-Muhammad_CV.5885134628f0fd773a33.pdf",
+    "static/media/Hashim _Aziz-Muhammad_CV.pdf": "/static/media/Hashim _Aziz-Muhammad_CV.5660a65229d3874faa21.pdf",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/netguardian.png": "/static/media/netguardian.d48881eb100cbecb86af.png",
@@ -18,12 +18,12 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab4c2b1897e6e0.svg",
     "index.html": "/index.html",
     "main.8909c821.css.map": "/static/css/main.8909c821.css.map",
-    "main.672f6016.js.map": "/static/js/main.672f6016.js.map",
+    "main.88bbe7dc.js.map": "/static/js/main.88bbe7dc.js.map",
     "770.074a10a6.chunk.js.map": "/static/js/770.074a10a6.chunk.js.map",
     "453.ad7768ec.chunk.js.map": "/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8909c821.css",
-    "static/js/main.672f6016.js"
+    "static/js/main.88bbe7dc.js"
   ]
 }
