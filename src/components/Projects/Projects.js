@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="NetGuardian"
               description="NetGuardian is a lightweight Managed Detection & Response (MDR) platform built for the ITWeb Security Summit 2025 Hackathon.I developed the frontend using React, Next.js, TypeScript, and Tailwind CSS, creating a responsive UI and real-time threat dashboard that integrates with backend detection systems."
-              ghLink="https://github.com/hashimaziz88/neural-defenders"
+              ghLink="https://github.com/hashimaziz88/NetGuardianITWEB2025"
               demoLink="https://neural-defenders-5tgr.vercel.app/"
               youtubeLink="https://youtu.be/QpULuEAWKx8?si=1OrG90Abgmp0Y5yM"
             />
