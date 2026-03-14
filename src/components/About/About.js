@@ -22,8 +22,12 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Get To Know <strong className="purple">Me</strong>
             </h1>
+            <p className="section-lead">
+              I care about well-crafted software, calm execution, and building
+              systems that stay readable, useful, and dependable as they grow.
+            </p>
             <Aboutcard />
           </Col>
           <Col
@@ -35,13 +39,13 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Core <strong className="purple">Technologies </strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Tools</strong> I Work With
         </h1>
         <Toolstack />
 

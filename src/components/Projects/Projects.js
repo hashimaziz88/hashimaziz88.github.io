@@ -12,10 +12,11 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Selected <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        <p className="section-lead project-lead">
+          A few builds that reflect how I approach frontend craft, full-stack
+          delivery, and practical problem-solving.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -23,7 +24,8 @@ function Projects() {
               imgPath={netguardian}
               isBlog={false}
               title="NetGuardian"
-              description="NetGuardian is a lightweight Managed Detection & Response (MDR) platform built for the ITWeb Security Summit 2025 Hackathon.I developed the frontend using React, Next.js, TypeScript, and Tailwind CSS, creating a responsive UI and real-time threat dashboard that integrates with backend detection systems."
+              stack="React, Next.js, TypeScript, Tailwind CSS"
+              description="A lightweight managed detection and response platform created for the ITWeb Security Summit 2025 Hackathon. I built the frontend experience and real-time dashboard, focusing on clarity, responsiveness, and a polished security-focused workflow."
               ghLink="https://github.com/hashimaziz88/NetGuardianITWEB2025"
               demoLink="https://neural-defenders-5tgr.vercel.app/"
               youtubeLink="https://youtu.be/QpULuEAWKx8?si=1OrG90Abgmp0Y5yM"
@@ -35,9 +37,8 @@ function Projects() {
               imgPath={xbanker}
               isBlog={false}
               title="XBanker"
-              description="XBanker is a single-page banking app landing page built with React, Tailwind CSS, and JavaScript.
-
-It showcases my frontend skills in crafting clean, responsive UI layouts with modern design practices."
+              stack="React, JavaScript, Tailwind CSS"
+              description="A modern banking landing page built to showcase clean visual hierarchy, responsive layout work, and component-driven frontend execution. The focus was on crisp presentation and strong UX fundamentals."
               ghLink="https://github.com/hashimaziz88/XBanker"
               demoLink="https://hashimaziz88.github.io/XBanker/"
             />
@@ -48,7 +49,8 @@ It showcases my frontend skills in crafting clean, responsive UI layouts with mo
               imgPath={moviereview}
               isBlog={false}
               title="Movie Reviewer"
-              description="This Django-based API allows users to manage movie reviews, ratings, and recommendations. Users can create accounts, submit reviews, rate movies, and get personalized recommendations based on their preferences."
+              stack="Django, Python, REST API"
+              description="A backend-focused movie review platform with account management, ratings, reviews, and recommendation features. It highlights API design, business logic, and the structure needed for content-driven applications."
               ghLink="https://github.com/hashimaziz88/ALXBE_Capstone_Django"
               demoLink="https://github.com/hashimaziz88/ALXBE_Capstone_Django"
             />

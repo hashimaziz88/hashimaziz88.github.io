@@ -12,7 +12,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              A QUICK <span className="purple"> INTRODUCTION </span>
+              Engineering With <span className="purple"> Breadth </span>
             </h1>
             <p className="home-about-body">
               I&apos;m a software engineer based in
@@ -33,7 +33,7 @@ function Home2() {
               using
               <b className="purple">
                 {" "}
-                React, Node.js, TypeScript, Next.js, and AWS
+                React, Node.js, TypeScript, Next.js, and cloud-native services
               </b>
               .
               <br />
@@ -45,14 +45,15 @@ function Home2() {
               <b className="purple">
                 {" "}
                 React, Next.js, TypeScript, JavaScript, C#, ASP.NET, and EF
-                Core
+                Core on Azure
               </b>
               .
               <br />
               <br />
-              I enjoy turning complex requirements into clean, maintainable
-              software and collaborating with teams to ship products that are
-              thoughtful, scalable, and useful.
+              What I enjoy most is bridging product thinking with engineering
+              execution: shaping solid user experiences, building dependable
+              systems, and helping teams move from idea to production with less
+              friction.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -65,7 +66,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>LET&apos;S CONNECT</h1>
             <p>
-              You can find me on
+              Explore the work, browse the code, or reach out on
               <span className="purple"> GitHub </span>
               and
               <span className="purple"> LinkedIn</span>.

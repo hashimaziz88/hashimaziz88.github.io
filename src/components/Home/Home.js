@@ -1,9 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { CgFileDocument } from "react-icons/cg";
 
 function Home() {
   return (
@@ -13,34 +18,62 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
+              <div className="hero-badge">Software Engineer | Johannesburg</div>
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+                Building dependable products across consulting and delivery
               </h1>
 
               <h1 className="heading-name">
-                I'm
                 <strong className="main-name"> Hashim Aziz Muhammad </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="hero-intro-card">
                 <Type />
-                <p
-                  style={{
-                    marginTop: "20px",
-                    color: "white",
-                    lineHeight: "1.8",
-                    maxWidth: "640px",
-                  }}
-                >
-                  I&apos;m a software engineer focused on building reliable web
-                  applications and practical digital solutions. My background
-                  spans insurtech, cybersecurity, DevOps, and full-stack
+                <p className="hero-summary">
+                  I build modern software with a strong bias for clarity,
+                  maintainability, and delivery. My background spans
+                  insurtech, cybersecurity, DevOps, and full-stack product
                   development, and I now work in software development
                   consulting at <strong className="purple">Boxfusion</strong>.
                 </p>
+                <div className="hero-highlights">
+                  <span>React & Next.js</span>
+                  <span>TypeScript & JavaScript</span>
+                  <span>C# & ASP.NET</span>
+                  <span>Azure & DevOps</span>
+                </div>
+                <p className="hero-supporting-copy">
+                  From frontend experience to backend systems and cloud
+                  delivery, I enjoy turning complex requirements into software
+                  that teams can ship and scale with confidence.
+                </p>
+                <div className="hero-actions">
+                  <Button
+                    variant="primary"
+                    href="https://www.linkedin.com/in/hashimaziz88/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaLinkedinIn /> &nbsp;LinkedIn
+                  </Button>
+                  <Button
+                    variant="primary"
+                    href="https://github.com/hashimaziz88"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hero-secondary-btn"
+                  >
+                    <AiFillGithub /> &nbsp;GitHub
+                  </Button>
+                  <Button
+                    variant="primary"
+                    as={Link}
+                    to="/resume"
+                    className="hero-secondary-btn"
+                  >
+                    <CgFileDocument /> &nbsp;Resume
+                  </Button>
+                </div>
               </div>
             </Col>
 

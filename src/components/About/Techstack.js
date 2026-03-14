@@ -8,11 +8,11 @@ import {
   DiNodejs,
 } from "react-icons/di";
 import {
-  SiAmazonaws,
   SiCsharp,
   SiDocker,
   SiDotnet,
   SiKubernetes,
+  SiMicrosoftazure,
   SiNextdotjs,
   SiPostgresql,
   SiTypescript,
@@ -37,7 +37,7 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonaws />
+        <SiMicrosoftazure />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCsharp />

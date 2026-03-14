@@ -10,10 +10,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Hashim Aziz Muhammad</h3>
+          <h3>Designed and built by Hashim Aziz Muhammad</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} hashimaziz88</h3>
+          <h3>Johannesburg, South Africa | © {year}</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
