@@ -1,46 +1,31 @@
 import React from "react";
-import { Button, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import {
+  DiHtml5,
+  DiCss3,
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiDjango,
-  DiJava,
-  DiHtml5,
-  DiCss3,
 } from "react-icons/di";
 import {
-  SiGradle,
-  SiMysql,
-  SiPostgresql,
-  SiApachemaven,
-  SiTypescript,
-  SiTailwindcss,
-  SiLinux,
+  SiAmazonaws,
+  SiCsharp,
   SiDocker,
+  SiDotnet,
   SiKubernetes,
+  SiNextdotjs,
+  SiPostgresql,
+  SiTypescript,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiApachemaven />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGradle />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
+        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -51,27 +36,29 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiDjango />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
+        <SiDotnet />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
       </Col>
     </Row>
   );

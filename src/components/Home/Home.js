@@ -27,6 +27,20 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
+                <p
+                  style={{
+                    marginTop: "20px",
+                    color: "white",
+                    lineHeight: "1.8",
+                    maxWidth: "640px",
+                  }}
+                >
+                  I&apos;m a software engineer focused on building reliable web
+                  applications and practical digital solutions. My background
+                  spans insurtech, cybersecurity, DevOps, and full-stack
+                  development, and I now work in software development
+                  consulting at <strong className="purple">Boxfusion</strong>.
+                </p>
               </div>
             </Col>
 

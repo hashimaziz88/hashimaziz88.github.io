@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -16,37 +12,47 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              A QUICK <span className="purple"> INTRODUCTION </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I&apos;m a software engineer based in
+              <span className="purple"> Johannesburg, South Africa</span>, with
+              a strong foundation in software engineering and hands-on
+              experience across product development, platform work, and
+              consulting.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I started my career in the
               <i>
-                <b className="purple"> Java, Javascript and Python. </b>
+                <b className="purple"> insurtech space </b>
               </i>
+              where I worked across
+              <b className="purple"> cybersecurity, DevOps, </b>
+              and
+              <b className="purple"> full-stack engineering </b>
+              using
+              <b className="purple">
+                {" "}
+                React, Node.js, TypeScript, Next.js, and AWS
+              </b>
+              .
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to <b className="purple">Blockchain.</b>
-              </i>
+              Today, I work at
+              <b className="purple"> Boxfusion </b>
+              in software development consulting, building modern solutions
+              with
+              <b className="purple">
+                {" "}
+                React, Next.js, TypeScript, JavaScript, C#, ASP.NET, and EF
+                Core
+              </b>
+              .
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              I enjoy turning complex requirements into clean, maintainable
+              software and collaborating with teams to ship products that are
+              thoughtful, scalable, and useful.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -57,9 +63,12 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>LET&apos;S CONNECT</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              You can find me on
+              <span className="purple"> GitHub </span>
+              and
+              <span className="purple"> LinkedIn</span>.
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -80,16 +89,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/hashimaziz88/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
